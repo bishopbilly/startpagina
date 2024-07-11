@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #0000ff;
+}
+h1 {
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212121;
+    }
+    * {
+        color: #fff;
+    }
+    .backdrop {
+        background-color: #2f2f2f;
+    }
+}
