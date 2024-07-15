@@ -1,9 +1,53 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+* {
     font-family: "Roboto Mono", monospace;
     color: #0000ff;
 }
-h1 {
-    text-align: center;
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+  }
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+}
+
+.folders {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.folder {
+    background-color: #fafafa;
+    padding: 32px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {
